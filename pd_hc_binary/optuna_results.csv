@@ -1,0 +1,13 @@
+model,best_f1,best_params
+LightGBM,0.8271974273946013,"{'n_estimators': 757, 'learning_rate': 0.1501380847586508, 'num_leaves': 53, 'subsample': 0.9735157171471605, 'colsample_bytree': 0.7871764053188043}"
+XGBoost,0.8502206234442585,"{'n_estimators': 735, 'learning_rate': 0.07958207989345792, 'max_depth': 6, 'subsample': 0.9434680907461815, 'colsample_bytree': 0.825634998224036}"
+CatBoost,0.85665451402344,"{'iterations': 798, 'learning_rate': 0.06274882371623032, 'depth': 8}"
+LogisticRegression,0.7696548446503891,{}
+RandomForest,0.8510269834877165,"{'n_estimators': 481, 'max_depth': 16}"
+ExtraTrees,0.858291871267059,{'n_estimators': 234}
+GradientBoosting,0.8575821721550364,"{'n_estimators': 108, 'learning_rate': 0.01680485046967662}"
+AdaBoost,0.8570579013484593,"{'n_estimators': 237, 'learning_rate': 0.31132053467205617}"
+SVM,0.8309892561097961,"{'C': 0.3861994242388231, 'gamma': 0.005001876007593611}"
+GaussianNB,0.7673537076522151,{}
+MLP,0.8246431860036832,"{'layer1': 99, 'layer2': 61}"
+KNN,0.8452313836034766,{'n_neighbors': 15}
