@@ -1,0 +1,46 @@
+{
+  "individual_analyses": {
+    "eye_tracking": {
+      "analysis_id": "eye_20240917_123456_abc123",
+      "analysis_type": "eye-tracking",
+      "status": "completed",
+      "summary": {
+        "severity_score": 7.2,
+        "interpretation": "중등도 파킨슨병 징후 검출"
+      }
+    },
+    "finger_tapping": {
+      "analysis_id": "finger_20240917_123456_def456",
+      "analysis_type": "finger-tapping",
+      "status": "completed",
+      "summary": {
+        "severity_score": 6.8,
+        "interpretation": "경도-중등도 운동 장애 징후"
+      }
+    },
+    "voice_analysis": {
+      "analysis_id": "voice_20240917_123456_ghi789",
+      "analysis_type": "voice-analysis",
+      "status": "completed",
+      "summary": {
+        "severity_score": 7.5,
+        "interpretation": "파킨슨병 고위험군, 신경과 진료 권장"
+      }
+    }
+  },
+  "comprehensive_results": {
+    "overall_assessment": {
+      "pd_probability": 0.768,
+      "confidence": 0.873,
+      "risk_classification": "high_risk"
+    },
+    "clinical_interpretation": {
+      "primary_diagnosis": "파킨슨병 의심",
+      "stage_estimation": "초기-중기"
+    },
+    "summary": {
+      "executive_summary": "다중 모달 분석 결과, 파킨슨병 초기-중기 징후 관찰",
+      "next_steps": "신경과 전문의 진료 필요"
+    }
+  }
+}
