@@ -1,0 +1,13 @@
+model,objective,best_objective,best_params
+LightGBM,auc,0.6737231829526392,"{'n_estimators': 457, 'learning_rate': 0.19044039363610116, 'num_leaves': 15, 'subsample': 0.8515385587938011, 'colsample_bytree': 0.8885990727254737}"
+XGBoost,auc,0.6826031853450077,"{'n_estimators': 720, 'learning_rate': 0.04408960390818019, 'max_depth': 6, 'subsample': 0.7565472419506071, 'colsample_bytree': 0.7653773877929522}"
+CatBoost,auc,0.6896752761681736,"{'iterations': 285, 'learning_rate': 0.1131686447770574, 'depth': 7}"
+LogisticRegression,auc,0.640790572027221,{}
+RandomForest,auc,0.6880219040121273,"{'n_estimators': 231, 'max_depth': 16}"
+ExtraTrees,auc,0.6942826254880393,{'n_estimators': 459}
+GradientBoosting,auc,0.6546095835090823,"{'n_estimators': 302, 'learning_rate': 0.1827044677726044}"
+AdaBoost,auc,0.634345385335104,"{'n_estimators': 500, 'learning_rate': 0.39978784530941724}"
+SVM,auc,0.6997428673484545,"{'C': 4.876711914654278, 'gamma': 0.044160797235220886}"
+GaussianNB,auc,0.5388992337940969,{}
+MLP,auc,0.7211457177658618,"{'layer1': 110, 'layer2': 31}"
+KNN,auc,0.6323614850459923,{'n_neighbors': 13}

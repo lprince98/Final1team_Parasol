@@ -1,0 +1,56 @@
+feature	paper_category	stat	ko_meaning_paper
+num__amplitude_decrement_end_to_mean_denoised	amplitude/angle(각도)	MEAN	엄지-손목-검지 끝이 이루는 각(°)의 피크. 카메라 거리 무관 지표.
+num__aperiodicity_trimmed	period(탭 1회의 시간)		연속 탭 간 소요시간.
+num__frequency_lr_fitness_r2_denoised	frequency(초당 탭 횟수)		단위 시간당 탭 수(Hz).
+num__amplitude_max_denoised	amplitude/angle(각도)	MAX	엄지-손목-검지 끝이 이루는 각(°)의 피크. 카메라 거리 무관 지표. 최댓값이 낮으면 최대 벌림이 작음.
+num__speed_min_denoised	speed(연속 속도)	MIN	프레임 간 손가락 각도 변화율(°/s). 속도 범위/중앙값/최댓값 감소는 서동(bradykinesia)와 연관.
+num__maxFreezeDuration_denoised	freezing(장기 정지)	MAX	속도 < 50°/s 상태가 ≥20ms 지속(동결) 횟수 및 최장 지속시간. 많을수록/길수록 중증도와 양의 상관.
+num__speed_max_denoised	speed(연속 속도)	MAX	프레임 간 손가락 각도 변화율(°/s). 속도 범위/중앙값/최댓값 감소는 서동(bradykinesia)와 연관. 최댓값이 낮을수록 최고 속도가 낮음.
+num__amplitude_entropy_denoised	amplitude/angle(각도)	ENTROPY	엄지-손목-검지 끝이 이루는 각(°)의 피크. 카메라 거리 무관 지표.
+num__frequency_lr_fitness_r2_trimmed	frequency(초당 탭 횟수)		단위 시간당 탭 수(Hz).
+num__amplitude_decrement_slope_trimmed	amplitude/angle(각도)	SLOPE	엄지-손목-검지 끝이 이루는 각(°)의 피크. 카메라 거리 무관 지표.
+num__period_min_denoised	period(탭 1회의 시간)	MIN	"주기 분산/사분위 범위/최솟값. 분산↑·IQR↑은 불규칙 증가, 최소 주기 감소는 빠른 스퍼트 반영."
+num__speed_quartile_range_denoised	speed(연속 속도)		프레임 간 손가락 각도 변화율(°/s). 속도 범위/중앙값/최댓값 감소는 서동(bradykinesia)와 연관.
+num__speed_median_trimmed	speed(연속 속도)	MEDIAN	프레임 간 손가락 각도 변화율(°/s). 속도 범위/중앙값/최댓값 감소는 서동(bradykinesia)와 연관. 중앙값이 낮을수록 전반적 움직임이 느림.
+num__wrist_mvmnt_y_max	wrist movement(손목 이동)	MAX	정규화된 손목 좌표의 프레임 간 이동량(픽셀/정규화). 최소/중앙값이 낮으면 고정에 가깝고 과소/과대 이동 모두 품질에 영향.
+num__frequency_min_denoised	frequency(초당 탭 횟수)	MIN	단위 시간당 탭 수(Hz).
+num__acceleration_min_denoised	acceleration(연속 가속도)	MIN	전처리 파이프라인에서 생성된 수치 특성(논문 정의를 참조하여 해석).
+num__maxFreezeDuration_trimmed	freezing(장기 정지)	MAX	속도 < 50°/s 상태가 ≥20ms 지속(동결) 횟수 및 최장 지속시간. 많을수록/길수록 중증도와 양의 상관.
+num__amplitude_decrement_slope_denoised	amplitude/angle(각도)	SLOPE	엄지-손목-검지 끝이 이루는 각(°)의 피크. 카메라 거리 무관 지표.
+num__periodVarianceNorm_trimmed	period(탭 1회의 시간)	VAR	"주기 분산/사분위 범위/최솟값. 분산↑·IQR↑은 불규칙 증가, 최소 주기 감소는 빠른 스퍼트 반영."
+num__acceleration_min_trimmed	acceleration(연속 가속도)	MIN	전처리 파이프라인에서 생성된 수치 특성(논문 정의를 참조하여 해석).
+num__amplitude_stdev_denoised	amplitude/angle(각도)	STD	엄지-손목-검지 끝이 이루는 각(°)의 피크. 카메라 거리 무관 지표.
+num__wrist_mvmnt_dist_min	wrist movement(손목 이동)	MIN	정규화된 손목 좌표의 프레임 간 이동량(픽셀/정규화). 최소/중앙값이 낮으면 고정에 가깝고 과소/과대 이동 모두 품질에 영향.
+num__frequency_lr_slope_trimmed	frequency(초당 탭 횟수)	SLOPE	단위 시간당 탭 수(Hz).
+num__amplitude_decrement_fit_min_degree_denoised	amplitude/angle(각도)	MIN	엄지-손목-검지 끝이 이루는 각(°)의 피크. 카메라 거리 무관 지표.
+num__amplitude_decrement_end_to_mean_trimmed	amplitude/angle(각도)	MEAN	엄지-손목-검지 끝이 이루는 각(°)의 피크. 카메라 거리 무관 지표.
+num__periodVarianceNorm_denoised	period(탭 1회의 시간)	VAR	"주기 분산/사분위 범위/최솟값. 분산↑·IQR↑은 불규칙 증가, 최소 주기 감소는 빠른 스퍼트 반영."
+num__amplitude_quartile_range_denoised	amplitude/angle(각도)		엄지-손목-검지 끝이 이루는 각(°)의 피크. 카메라 거리 무관 지표.
+num__wrist_mvmnt_y_median	wrist movement(손목 이동)	MEDIAN	정규화된 손목 좌표의 프레임 간 이동량(픽셀/정규화). 최소/중앙값이 낮으면 고정에 가깝고 과소/과대 이동 모두 품질에 영향.
+num__period_quartile_range_denoised	period(탭 1회의 시간)		연속 탭 간 소요시간.
+num__period_quartile_range_trimmed	period(탭 1회의 시간)		연속 탭 간 소요시간.
+num__amplitude_decrement_fitness_r2_denoised	amplitude/angle(각도)		엄지-손목-검지 끝이 이루는 각(°)의 피크. 카메라 거리 무관 지표.
+num__speed_min_trimmed	speed(연속 속도)	MIN	프레임 간 손가락 각도 변화율(°/s). 속도 범위/중앙값/최댓값 감소는 서동(bradykinesia)와 연관.
+num__periodEntropy_denoised	period(탭 1회의 시간)	ENTROPY	주기의 주파수영역 불확실성(엔트로피). 높을수록 리듬이 불규칙.
+num__aperiodicity_denoised	period(탭 1회의 시간)		연속 탭 간 소요시간.
+num__frequency_lr_slope_denoised	frequency(초당 탭 횟수)	SLOPE	단위 시간당 탭 수(Hz).
+num__wrist_mvmnt_y_min	wrist movement(손목 이동)	MIN	정규화된 손목 좌표의 프레임 간 이동량(픽셀/정규화). 최소/중앙값이 낮으면 고정에 가깝고 과소/과대 이동 모두 품질에 영향.
+num__frequency_quartile_range_denoised	frequency(초당 탭 횟수)		단위 시간당 탭 수(Hz).
+num__amplitude_median_denoised	amplitude/angle(각도)	MEDIAN	엄지-손목-검지 끝이 이루는 각(°)의 피크. 카메라 거리 무관 지표. 중앙값이 낮을수록 탭 크기가 작아짐.
+num__amplitude_decrement_last_to_first_half_denoised	amplitude/angle(각도)		엄지-손목-검지 끝이 이루는 각(°)의 피크. 카메라 거리 무관 지표.
+num__num_peaks_trimmed	기타(수치 파생)		전처리 파이프라인에서 생성된 수치 특성(논문 정의를 참조하여 해석).
+num__amplitude_decrement_fit_min_degree_trimmed	amplitude/angle(각도)	MIN	엄지-손목-검지 끝이 이루는 각(°)의 피크. 카메라 거리 무관 지표.
+num__frequency_fit_min_degree_trimmed	frequency(초당 탭 횟수)	MIN	단위 시간당 탭 수(Hz).
+num__frequency_fit_min_degree_denoised	frequency(초당 탭 횟수)	MIN	단위 시간당 탭 수(Hz).
+num__wrist_mvmnt_x_min	wrist movement(손목 이동)	MIN	정규화된 손목 좌표의 프레임 간 이동량(픽셀/정규화). 최소/중앙값이 낮으면 고정에 가깝고 과소/과대 이동 모두 품질에 영향.
+num__wrist_mvmnt_x_median	wrist movement(손목 이동)	MEDIAN	정규화된 손목 좌표의 프레임 간 이동량(픽셀/정규화). 최소/중앙값이 낮으면 고정에 가깝고 과소/과대 이동 모두 품질에 영향.
+num__period_median_denoised	period(탭 1회의 시간)	MEDIAN	연속 탭 간 소요시간.
+num__frequency_stdev_denoised	frequency(초당 탭 횟수)	STD	단위 시간당 탭 수(Hz). 변동(불규칙성)이 클수록 중증도와 양의 상관.
+num__speed_median_denoised	speed(연속 속도)	MEDIAN	프레임 간 손가락 각도 변화율(°/s). 속도 범위/중앙값/최댓값 감소는 서동(bradykinesia)와 연관. 중앙값이 낮을수록 전반적 움직임이 느림.
+num__amplitude_decrement_fitness_r2_trimmed	amplitude/angle(각도)		엄지-손목-검지 끝이 이루는 각(°)의 피크. 카메라 거리 무관 지표.
+num__amplitude_stdev_trimmed	amplitude/angle(각도)	STD	엄지-손목-검지 끝이 이루는 각(°)의 피크. 카메라 거리 무관 지표.
+cat__hand_Left	기타(수치 파생)		전처리 파이프라인에서 생성된 수치 특성(논문 정의를 참조하여 해석).
+cat__hand_Right	기타(수치 파생)		전처리 파이프라인에서 생성된 수치 특성(논문 정의를 참조하여 해석).
+num__numFreeze_denoised	freezing(장기 정지)		속도 < 50°/s 상태가 ≥20ms 지속(동결) 횟수 및 최장 지속시간. 많을수록/길수록 중증도와 양의 상관.
+num__numInterruptions_denoised	interruptions(중단 횟수)	MIN	속도 < 50°/s 상태가 ≥10ms 지속된 사건 수. 많을수록 중증도와 양의 상관.
+num__numFreeze_trimmed	freezing(장기 정지)		속도 < 50°/s 상태가 ≥20ms 지속(동결) 횟수 및 최장 지속시간. 많을수록/길수록 중증도와 양의 상관.
